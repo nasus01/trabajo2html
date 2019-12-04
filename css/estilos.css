@@ -1,0 +1,254 @@
+body{
+    background-image: url(pantalla-league-legends.jpg);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+}
+h1{
+    font: bold 40px/100% Arial,Helvetica,sans-serif;
+    
+}
+#pagewrap{
+    padding: 5px;
+    height: 970px;
+    margin: 20px auto;
+    
+}
+
+#content{
+    height: 300px;
+    width: -200px;
+    position: relative;
+    
+    
+}
+
+#sidebar{
+    width: 470px;
+    float: left;
+    margin-left:-0px;
+    text-align: left;
+}
+#sidebar1{
+    width: 470px;
+    float: right;
+    margin-right:-0px;
+    text-align: right;
+}
+
+
+#footer{
+    clear: both;;
+}
+
+
+
+#pagewrap, #header,#content,#sidebar,#footer,#menu,#sidebar1,#parrafo1,#parrafo2,#parrafo3,#parrafo4 {
+    border: solid 5px #ccc;
+    text-align: center;
+}
+#imagen3{
+    width: 200px;
+    float: left;
+    text-align: left;
+}
+
+#imagen4{
+    width: 200px;
+    float: right;
+    text-align: right;
+}
+
+#parrafo1{
+
+    width: 470px;
+    float: left;
+    margin-left:-5px;
+    text-align: left;
+}
+
+#parrafo2{
+    width:470px;
+    float: right;
+    margin-right:-5px;
+    text-align: right;
+
+}
+
+
+
+
+#parrafo3{
+    width: 470px;
+    float: left;
+    margin-left:-5px;
+    text-align: left;
+}
+#parrafo4{
+    width:470px;
+    float: right;
+    margin-right:-5px;
+    text-align: right;
+}
+
+#menu{
+    margin-bottom: 10px;
+    display:flow-root;
+}
+
+.listado{
+    float: left;
+  margin-left:20px;
+}
+
+.imagen2{
+    width: 200px;
+    
+    
+}
+.imagen1{
+    width: 180px;
+   
+}
+
+#logo{
+  
+    width: 200px;
+    float: right;
+    text-align: right;
+    
+    
+}
+#logo2{
+    width: 200px;
+    float: left;
+    text-align: left;
+}
+
+
+
+
+#logo3{
+    top: 30px;
+   float: left;
+
+}
+#logo4{
+   float: right;
+   text-align: right;
+}
+
+
+
+@media screen and (max-width: 1300px){
+    body{
+        background-color: blue;
+    }
+    #logo{
+        text-align: center;
+        float: none;
+        width: 100px;
+        height: 100px;
+    }
+  
+    #pagewrap{
+        padding: 5px;
+        height: 970px;
+        margin: 20px auto;
+        
+    }
+    #logo2{
+        text-align: center;
+        float: none;
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+    #content{
+
+        width: 99%;
+    }
+    #sidebar{
+        width: 48%;
+    }
+    #sidebar1{
+        width: 48%;
+    }
+    #parrafo1{
+        width: 45%;
+    }
+    #parrafo2{
+        float: right;
+        margin-right:-5px;
+        text-align: right;
+        width: 45%;
+    }
+  #parrafo3{
+    width: 45%;
+    float: left;
+    margin-left:-5px;
+    text-align: left;
+  }
+  #parrafo4{
+    width: 45%;
+  }
+
+
+
+
+}
+
+@media screen and (max-width:750px){
+    body{
+        background-image: url(jinx.jpg);
+        background-repeat: no-repeat; 
+        background-position: center center;
+        background-size: cover;
+    }
+    #pagewrap{
+        padding: 5px;
+        height: 1300px;
+        margin: 20px auto;
+        
+    }
+    #content{
+        width: auto;
+        float: none;
+    }
+ 
+
+
+    #sidebar{
+        width: auto;
+        float:none;
+    }
+    #sidebar1{
+        width: auto;
+        float:none;
+    }
+
+
+
+}
+
+
+/*para resolucion de 501px o menos*/
+
+@media screen and (max-width:501px){
+    body{
+        background-image: url(jhin.jpg);
+        background-repeat: no-repeat; 
+        background-position: center center;
+        background-size: cover;
+    }
+
+    #pagewrap{
+        padding: 5px;
+        height: 1110px;
+        margin: 20px auto;
+        
+    }font-size: small; 
+
+}
